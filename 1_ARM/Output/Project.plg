@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\热刺项目\直接半导体电源\软件设计\500W直接半导体\Project\Project.uvproj
+Project File Date:  06/20/2017
+
+<h2>Output:</h2>
+Build target ' 贴片机程序'
+linking...
+Program Size: Code=10316 RO-data=336 RW-data=600 ZI-data=1152  
+FromELF: creating hex file...
+User command #1: "E:\Program Files (x86)\Keil_ARM\ARM\BIN40\fromelf.exe" --bin -o ..\Output\Project.bin  ..\Output\Project.axf
+"..\Output\Project.axf" - 0 Error(s), 0 Warning(s).
+Build target '500W直接半导体'
+linking...
+Program Size: Code=10316 RO-data=336 RW-data=600 ZI-data=1152  
+FromELF: creating hex file...
+User command #1: "E:\Program Files (x86)\Keil_ARM\ARM\BIN40\fromelf.exe" --bin -o ..\Output\Project.bin  ..\Output\Project.axf
+"..\Output\500W直接半导体.axf" - 0 Error(s), 0 Warning(s).
+Build target '500W直接半导体'
+linking...
+Program Size: Code=10316 RO-data=336 RW-data=600 ZI-data=1152  
+FromELF: creating hex file...
+User command #1: "E:\Program Files (x86)\Keil_ARM\ARM\BIN40\fromelf.exe" --bin -o ..\Output\Project.bin  ..\Output\Project.axf
+"..\Output\500W直接半导体.axf" - 0 Error(s), 0 Warning(s).

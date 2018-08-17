@@ -1,0 +1,1 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\Libraries\CMSIS -I..\Libraries\FWlib\inc -I..\User -I "E:\Program Files (x86)\Keil_ARM\ARM\INC" -I "E:\Program Files (x86)\Keil_ARM\ARM\INC\ST\STM32F10x" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\Output\fsmc.o" --omf_browse "..\Output\fsmc.crf" --depend "..\Output\fsmc.d" "..\User\fsmc.c"
