@@ -22,8 +22,6 @@ int main(void)
 	Globle_Init();
 	while(1)
 	{		
-
-
 		
 		Fault_Check();
 		if(receivedone2==1)	{USART2_Commdeal(); receivedone2=0;	}	
@@ -36,8 +34,7 @@ int main(void)
 		{
 			Work_Control(1);
 			Work_LED_SET(0);
-			Cmd_Flag=1;
-			
+			Cmd_Flag=1;	
 		}
 		else if( Work_Cmd==0 && Cmd_Flag==1 )
 				{	
