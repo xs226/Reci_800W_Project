@@ -6,8 +6,6 @@ u8 Cmd_Flag=0;
 u8 IIC_TAB[8]={0,2,3,6,2,8,2,6};
 u8  IIC_TAB2[8]={0};
 
-u8 aa;
-
 int main(void)
 {
 	Delay_1ms(1000);
@@ -22,9 +20,7 @@ int main(void)
 	EXTI_Configuration();
 	Globle_Init();
 	while(1)
-	{		
-		aa=1;
-		
+	{			
 		Fault_Check();
 		if(receivedone2==1)	{USART2_Commdeal(); receivedone2=0;	}	
 		if(receivedone4==1)	{USART4_Commdeal(); receivedone4=0;	}	

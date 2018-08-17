@@ -70,3 +70,22 @@ Program Size: Code=17724 RO-data=612 RW-data=736 ZI-data=1608
 FromELF: creating hex file...
 After Build - User command #1: "E:\Program Files (x86)\Keil_ARM\ARM\BIN40\fromelf.exe" --bin -o ..\Output\Project.bin  ..\Output\Project.axf
 "..\Output\500W直接半导体.axf" - 0 Errors, 12 Warning(s).
+Build target '500W直接半导体V2.0'
+compiling main.c...
+..\User\LD_Drive.h(30): warning:  #1295-D: Deprecated declaration Fault_Check - give arg types
+..\User\LD_Drive.h(31): warning:  #1295-D: Deprecated declaration LD_Parameter_Check - give arg types
+..\User\LD_Drive.h(32): warning:  #1295-D: Deprecated declaration Read_FPGA_ADC_Data - give arg types
+..\User\LD_Drive.h(33): warning:  #1295-D: Deprecated declaration LD_Threshold_Set - give arg types
+..\User\LD_Drive.h(34): warning:  #1295-D: Deprecated declaration Status_Check - give arg types
+..\User\Flash.h(15): warning:  #1295-D: Deprecated declaration Write_Parameter_ToFLASH - give arg types
+..\User\Flash.h(16): warning:  #1295-D: Deprecated declaration Read_Parameter_ToRAM - give arg types
+..\User\DHT12_EEPROM.h(21): warning:  #1295-D: Deprecated declaration Write_Fault_ToEEPROM - give arg types
+..\User\DHT12_EEPROM.h(22): warning:  #1295-D: Deprecated declaration Read_EEPROM_ToRAM - give arg types
+..\User\modbus.h(10): warning:  #1-D: last line of file ends without a newline
+..\User\Globle.h(33): warning:  #1295-D: Deprecated declaration Tem_AC220_Check - give arg types
+..\User\Globle.h(37): warning:  #1295-D: Deprecated declaration Key_Scan - give arg types
+linking...
+Program Size: Code=17716 RO-data=612 RW-data=736 ZI-data=1608  
+FromELF: creating hex file...
+After Build - User command #1: "E:\Program Files (x86)\Keil_ARM\ARM\BIN40\fromelf.exe" --bin -o ..\Output\Project.bin  ..\Output\Project.axf
+"..\Output\500W直接半导体.axf" - 0 Errors, 12 Warning(s).
