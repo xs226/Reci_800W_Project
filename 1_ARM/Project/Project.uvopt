@@ -103,16 +103,6 @@
           <Path>http://www.keil.com/mcbstm32e/</Path>
         </Book>
       </Books>
-      <DllOpt>
-        <SimDllName>SARMCM3.DLL</SimDllName>
-        <SimDllArguments>-REMAP</SimDllArguments>
-        <SimDlgDllName>DCM.DLL</SimDlgDllName>
-        <SimDlgDllArguments>-pCM3</SimDlgDllArguments>
-        <TargetDllName>SARMCM3.DLL</TargetDllName>
-        <TargetDllArguments></TargetDllArguments>
-        <TargetDlgDllName>TCM.DLL</TargetDlgDllName>
-        <TargetDlgDllArguments>-pCM3</TargetDlgDllArguments>
-      </DllOpt>
       <DebugOpt>
         <uSim>0</uSim>
         <uTrg>1</uTrg>
@@ -131,9 +121,12 @@
         <tRfunc>0</tRfunc>
         <tRbox>1</tRbox>
         <tRtrace>0</tRtrace>
+        <sRSysVw>1</sRSysVw>
+        <tRSysVw>1</tRSysVw>
+        <tPdscDbg>1</tPdscDbg>
         <sRunDeb>0</sRunDeb>
         <sLrtime>1</sLrtime>
-        <nTsel>7</nTsel>
+        <nTsel>6</nTsel>
         <sDll></sDll>
         <sDllPa></sDllPa>
         <sDlgDll></sDlgDll>
@@ -332,10 +325,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>10</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>22</TopLine>
-      <CurrentLine>31</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\main.c</PathWithFileName>
       <FilenameWithoutPath>main.c</FilenameWithoutPath>
@@ -348,10 +338,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>41</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>107</TopLine>
-      <CurrentLine>119</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Globle.c</PathWithFileName>
       <FilenameWithoutPath>Globle.c</FilenameWithoutPath>
@@ -364,10 +351,7 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\stm32f10x_conf.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_conf.h</FilenameWithoutPath>
@@ -380,10 +364,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>20</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>147</TopLine>
-      <CurrentLine>154</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\FSMC_FPGA.c</PathWithFileName>
       <FilenameWithoutPath>FSMC_FPGA.c</FilenameWithoutPath>
@@ -396,10 +377,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>44</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>384</TopLine>
-      <CurrentLine>358</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\USART.c</PathWithFileName>
       <FilenameWithoutPath>USART.c</FilenameWithoutPath>
@@ -412,10 +390,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>37</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>263</TopLine>
-      <CurrentLine>272</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\LD_Drive.c</PathWithFileName>
       <FilenameWithoutPath>LD_Drive.c</FilenameWithoutPath>
@@ -428,10 +403,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>1</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>112</TopLine>
-      <CurrentLine>113</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\stm32f10x_it.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_it.c</FilenameWithoutPath>
@@ -444,10 +416,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\adc.c</PathWithFileName>
       <FilenameWithoutPath>adc.c</FilenameWithoutPath>
@@ -460,10 +429,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Timer.c</PathWithFileName>
       <FilenameWithoutPath>Timer.c</FilenameWithoutPath>
@@ -476,10 +442,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\EXIT.c</PathWithFileName>
       <FilenameWithoutPath>EXIT.c</FilenameWithoutPath>
@@ -492,10 +455,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>2</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>74</TopLine>
-      <CurrentLine>83</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\Flash.c</PathWithFileName>
       <FilenameWithoutPath>Flash.c</FilenameWithoutPath>
@@ -508,10 +468,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>4</TopLine>
-      <CurrentLine>13</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\ds1302.c</PathWithFileName>
       <FilenameWithoutPath>ds1302.c</FilenameWithoutPath>
@@ -524,10 +481,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\DHT12_EEPROM.c</PathWithFileName>
       <FilenameWithoutPath>DHT12_EEPROM.c</FilenameWithoutPath>
@@ -540,10 +494,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>22</TopLine>
-      <CurrentLine>23</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\User\modbus.c</PathWithFileName>
       <FilenameWithoutPath>modbus.c</FilenameWithoutPath>
@@ -564,10 +515,7 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Note\readme.txt</PathWithFileName>
       <FilenameWithoutPath>readme.txt</FilenameWithoutPath>
@@ -588,10 +536,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\CMSIS\core_cm3.c</PathWithFileName>
       <FilenameWithoutPath>core_cm3.c</FilenameWithoutPath>
@@ -604,10 +549,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\CMSIS\system_stm32f10x.c</PathWithFileName>
       <FilenameWithoutPath>system_stm32f10x.c</FilenameWithoutPath>
@@ -620,10 +562,7 @@
       <FileType>2</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>0</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>147</TopLine>
-      <CurrentLine>152</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\CMSIS\startup\startup_stm32f10x_hd.s</PathWithFileName>
       <FilenameWithoutPath>startup_stm32f10x_hd.s</FilenameWithoutPath>
@@ -636,10 +575,7 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\CMSIS\stm32f10x.h</PathWithFileName>
       <FilenameWithoutPath>stm32f10x.h</FilenameWithoutPath>
@@ -652,10 +588,7 @@
       <FileType>5</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\CMSIS\system_stm32f10x.h</PathWithFileName>
       <FilenameWithoutPath>system_stm32f10x.h</FilenameWithoutPath>
@@ -676,10 +609,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>14</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>972</TopLine>
-      <CurrentLine>979</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_usart.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_usart.c</FilenameWithoutPath>
@@ -692,10 +622,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>30</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>301</TopLine>
-      <CurrentLine>310</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_gpio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_gpio.c</FilenameWithoutPath>
@@ -708,10 +635,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_rcc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rcc.c</FilenameWithoutPath>
@@ -724,10 +648,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\misc.c</PathWithFileName>
       <FilenameWithoutPath>misc.c</FilenameWithoutPath>
@@ -740,10 +661,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_adc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_adc.c</FilenameWithoutPath>
@@ -756,10 +674,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_bkp.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_bkp.c</FilenameWithoutPath>
@@ -772,10 +687,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_can.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_can.c</FilenameWithoutPath>
@@ -788,10 +700,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_cec.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_cec.c</FilenameWithoutPath>
@@ -804,10 +713,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_crc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_crc.c</FilenameWithoutPath>
@@ -820,10 +726,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_dac.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dac.c</FilenameWithoutPath>
@@ -836,10 +739,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_dbgmcu.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dbgmcu.c</FilenameWithoutPath>
@@ -852,10 +752,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_dma.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_dma.c</FilenameWithoutPath>
@@ -868,10 +765,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_exti.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_exti.c</FilenameWithoutPath>
@@ -884,10 +778,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_flash.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_flash.c</FilenameWithoutPath>
@@ -900,10 +791,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_fsmc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_fsmc.c</FilenameWithoutPath>
@@ -916,10 +804,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_i2c.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_i2c.c</FilenameWithoutPath>
@@ -932,10 +817,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_iwdg.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_iwdg.c</FilenameWithoutPath>
@@ -948,10 +830,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_pwr.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_pwr.c</FilenameWithoutPath>
@@ -964,10 +843,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_rtc.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_rtc.c</FilenameWithoutPath>
@@ -980,10 +856,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_sdio.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_sdio.c</FilenameWithoutPath>
@@ -996,10 +869,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_spi.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_spi.c</FilenameWithoutPath>
@@ -1012,10 +882,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_tim.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_tim.c</FilenameWithoutPath>
@@ -1028,10 +895,7 @@
       <FileType>1</FileType>
       <tvExp>0</tvExp>
       <Focus>0</Focus>
-      <ColumnNumber>13832780</ColumnNumber>
       <tvExpOptDlg>0</tvExpOptDlg>
-      <TopLine>0</TopLine>
-      <CurrentLine>0</CurrentLine>
       <bDave2>0</bDave2>
       <PathWithFileName>..\Libraries\FWlib\src\stm32f10x_wwdg.c</PathWithFileName>
       <FilenameWithoutPath>stm32f10x_wwdg.c</FilenameWithoutPath>
